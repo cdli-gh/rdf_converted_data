@@ -1,0 +1,419 @@
+#new_text=P102314
+#ID	FORM	LEMMA	UPOSTAG	XPOSTAG	FEATS	HEAD	DEPREL	DEPS	MISC
+@prefix :      <https://github.com/cdli-gh/Multilayer-Annotation-Query-Tool/data/P102314.conll#> .
+@prefix terms: <http://purl.org/acoli/open-ie/> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix conll: <http://ufal.mff.cuni.cz/conll2009-st/task-description.html#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+:s1_31  a              nif:Word ;
+        nif:nextWord   :s1_32 ;
+        conll:FEATS    "Number=Sing|Person=3|VerbForm=Fin" ;
+        conll:FORM     "i3-dab5" ;
+        conll:HEAD     :s1_0 ;
+        conll:ID       "31" ;
+        conll:LEMMA    "n]" ;
+        conll:UPOSTAG  "VERB" ;
+        conll:XPOSTAG  "V" .
+
+:s1_6   a              nif:Word ;
+        nif:nextWord   :s1_7 ;
+        conll:DEPREL   "appos" ;
+        conll:FEATS    "Animacy=Hum|Number=Sing" ;
+        conll:FORM     "ensi2" ;
+        conll:HEAD     :s1_5 ;
+        conll:ID       "6" ;
+        conll:LEMMA    "ensik[ruler]" ;
+        conll:UPOSTAG  "NOUN" ;
+        conll:XPOSTAG  "N" .
+
+:s1_16  a              nif:Word ;
+        nif:nextWord   :s1_17 ;
+        conll:DEPREL   "flat" ;
+        conll:FORM     "7(disz)" ;
+        conll:HEAD     :s1_14 ;
+        conll:ID       "16" ;
+        conll:LEMMA    "7(disz)[one]" ;
+        conll:UPOSTAG  "NUM" ;
+        conll:XPOSTAG  "NU" .
+
+:s1_29  a              nif:Word ;
+        nif:nextWord   :s1_30 ;
+        conll:DEPREL   "appos" ;
+        conll:FEATS    "Number=Sing" ;
+        conll:FORM     "ensi2" ;
+        conll:HEAD     :s1_28 ;
+        conll:ID       "29" ;
+        conll:LEMMA    "ensik[ruler]" ;
+        conll:UPOSTAG  "NOUN" ;
+        conll:XPOSTAG  "N" .
+
+:s1_0   a       nif:Sentence .
+
+:s1_10  a              nif:Word ;
+        nif:nextWord   :s1_11 ;
+        conll:DEPREL   "nummod" ;
+        conll:FORM     "1(u)" ;
+        conll:HEAD     :s1_13 ;
+        conll:ID       "10" ;
+        conll:LEMMA    "1(u)[ten]" ;
+        conll:UPOSTAG  "NUM" ;
+        conll:XPOSTAG  "NU" .
+
+:s1_23  a              nif:Word ;
+        nif:nextWord   :s1_24 ;
+        conll:DEPREL   "conj" ;
+        conll:FEATS    "Number=Sing" ;
+        conll:FORM     "ud5" ;
+        conll:HEAD     :s1_9 ;
+        conll:ID       "23" ;
+        conll:LEMMA    "uzud[goat]" ;
+        conll:UPOSTAG  "NOUN" ;
+        conll:XPOSTAG  "N" .
+
+:s1_36  a              nif:Word ;
+        nif:nextWord   :s1_37 ;
+        conll:DEPREL   "obl" ;
+        conll:FEATS    "Number=Sing" ;
+        conll:FORM     "mu" ;
+        conll:HEAD     :s1_31 ;
+        conll:ID       "36" ;
+        conll:LEMMA    "mu[year]" ;
+        conll:UPOSTAG  "NOUN" ;
+        conll:XPOSTAG  "N" .
+
+:s1_30  a              nif:Word ;
+        nif:nextWord   :s1_31 ;
+        conll:DEPREL   "nmod" ;
+        conll:FEATS    "Case=Gen,Erg|Number=Sing" ;
+        conll:FORM     "gir2-su{ki}" ;
+        conll:HEAD     :s1_29 ;
+        conll:ID       "30" ;
+        conll:LEMMA    "Girsu[1]" ;
+        conll:UPOSTAG  "PROPN" ;
+        conll:XPOSTAG  "SN" .
+
+:s1_5   a              nif:Word ;
+        nif:nextWord   :s1_6 ;
+        conll:DEPREL   "iobj" ;
+        conll:FEATS    "Animacy=Hum|Number=Sing" ;
+        conll:FORM     "ur-{d}lamma" ;
+        conll:HEAD     :s1_31 ;
+        conll:ID       "5" ;
+        conll:LEMMA    "Urlamma[1]" ;
+        conll:UPOSTAG  "PROPN" ;
+        conll:XPOSTAG  "PN" .
+
+:s1_15  a              nif:Word ;
+        nif:nextWord   :s1_16 ;
+        conll:DEPREL   "flat" ;
+        conll:FORM     "1(u)" ;
+        conll:HEAD     :s1_14 ;
+        conll:ID       "15" ;
+        conll:LEMMA    "1(u)[ten]" ;
+        conll:UPOSTAG  "NUM" ;
+        conll:XPOSTAG  "NU" .
+
+:s1_28  a              nif:Word ;
+        nif:nextWord   :s1_29 ;
+        conll:DEPREL   "nsubj" ;
+        conll:FEATS    "Animacy=Hum|Number=Sing" ;
+        conll:FORM     "ur-{d}lamma" ;
+        conll:HEAD     :s1_31 ;
+        conll:ID       "28" ;
+        conll:LEMMA    "Urlamma[1]" ;
+        conll:UPOSTAG  "PROPN" ;
+        conll:XPOSTAG  "PN" .
+
+:s1_22  a              nif:Word ;
+        nif:nextWord   :s1_23 ;
+        conll:DEPREL   "flat" ;
+        conll:FORM     "5(disz)" ;
+        conll:HEAD     :s1_21 ;
+        conll:ID       "22" ;
+        conll:LEMMA    "5(disz)[one]" ;
+        conll:UPOSTAG  "NUM" ;
+        conll:XPOSTAG  "NU" .
+
+:s1_35  a              nif:Word ;
+        nif:nextWord   :s1_36 ;
+        conll:DEPREL   "appos" ;
+        conll:FEATS    "Number=Sing" ;
+        conll:FORM     "ezem-me-ki-gal2" ;
+        conll:HEAD     :s1_34 ;
+        conll:ID       "35" ;
+        conll:LEMMA    "Ezemmekegal[1]" ;
+        conll:UPOSTAG  "PROPN" ;
+        conll:XPOSTAG  "MN" .
+
+:s1_4   a              nif:Word ;
+        nif:nextWord   :s1_5 ;
+        conll:DEPREL   "obj" ;
+        conll:FEATS    "Number=Sing" ;
+        conll:FORM     "udu" ;
+        conll:HEAD     :s1_31 ;
+        conll:ID       "4" ;
+        conll:LEMMA    "udu[sheep]" ;
+        conll:UPOSTAG  "NOUN" ;
+        conll:XPOSTAG  "N" .
+
+:s1_14  a              nif:Word ;
+        nif:nextWord   :s1_15 ;
+        conll:DEPREL   "nummod" ;
+        conll:FORM     "3(gesz2)" ;
+        conll:HEAD     :s1_17 ;
+        conll:ID       "14" ;
+        conll:LEMMA    "3(gesz)[sixty]" ;
+        conll:UPOSTAG  "NUM" ;
+        conll:XPOSTAG  "NU" .
+
+:s1_27  a              nif:Word ;
+        nif:nextWord   :s1_28 ;
+        conll:DEPREL   "nmod" ;
+        conll:FEATS    "Animacy=Hum|Case=Gen,Abl|Number=Sing" ;
+        conll:FORM     "{d}szara2-kam-ta" ;
+        conll:HEAD     :s1_26 ;
+        conll:ID       "27" ;
+        conll:LEMMA    "Szarakam[1]" ;
+        conll:UPOSTAG  "PROPN" ;
+        conll:XPOSTAG  "PN" .
+
+:s1_21  a              nif:Word ;
+        nif:nextWord   :s1_22 ;
+        conll:DEPREL   "nummod" ;
+        conll:FORM     "1(gesz2)" ;
+        conll:HEAD     :s1_23 ;
+        conll:ID       "21" ;
+        conll:LEMMA    "1(gesz)[sixty]" ;
+        conll:UPOSTAG  "NUM" ;
+        conll:XPOSTAG  "NU" .
+
+:s1_34  a              nif:Word ;
+        nif:nextWord   :s1_35 ;
+        conll:DEPREL   "obl" ;
+        conll:FEATS    "Number=Sing" ;
+        conll:FORM     "iti" ;
+        conll:HEAD     :s1_31 ;
+        conll:ID       "34" ;
+        conll:LEMMA    "iti[month]" ;
+        conll:UPOSTAG  "NOUN" ;
+        conll:XPOSTAG  "N" .
+
+:s1_9   a              nif:Word ;
+        nif:nextWord   :s1_10 ;
+        conll:DEPREL   "conj" ;
+        conll:FEATS    "Number=Sing" ;
+        conll:FORM     "gu4" ;
+        conll:HEAD     :s1_4 ;
+        conll:ID       "9" ;
+        conll:LEMMA    "gud[ox]" ;
+        conll:UPOSTAG  "NOUN" ;
+        conll:XPOSTAG  "N" .
+
+:s1_19  a              nif:Word ;
+        nif:nextWord   :s1_20 ;
+        conll:DEPREL   "flat" ;
+        conll:FORM     "3(u)" ;
+        conll:HEAD     :s1_18 ;
+        conll:ID       "19" ;
+        conll:LEMMA    "3(u)[ten]" ;
+        conll:UPOSTAG  "NUM" ;
+        conll:XPOSTAG  "NU" .
+
+:s1_3   a              nif:Word ;
+        nif:nextWord   :s1_4 ;
+        conll:DEPREL   "flat" ;
+        conll:FORM     "5(u)" ;
+        conll:HEAD     :s1_1 ;
+        conll:ID       "3" ;
+        conll:LEMMA    "5(u)[ten]" ;
+        conll:UPOSTAG  "NUM" ;
+        conll:XPOSTAG  "NU" .
+
+:s1_13  a              nif:Word ;
+        nif:nextWord   :s1_14 ;
+        conll:DEPREL   "conj" ;
+        conll:FEATS    "Number=Sing" ;
+        conll:FORM     "ab2" ;
+        conll:HEAD     :s1_9 ;
+        conll:ID       "13" ;
+        conll:LEMMA    "ab[cow]" ;
+        conll:UPOSTAG  "NOUN" ;
+        conll:XPOSTAG  "N" .
+
+:s1_26  a              nif:Word ;
+        nif:nextWord   :s1_27 ;
+        conll:DEPREL   "obl" ;
+        conll:FEATS    "Number=Sing" ;
+        conll:FORM     "ki" ;
+        conll:HEAD     :s1_31 ;
+        conll:ID       "26" ;
+        conll:LEMMA    "ki[place]" ;
+        conll:UPOSTAG  "NOUN" ;
+        conll:XPOSTAG  "N" .
+
+:s1_39  a              nif:Word ;
+        conll:DEPREL   "acl" ;
+        conll:FEATS    "Number=Sing|Person=3|Voice=Mid" ;
+        conll:FORM     "ba-dim2" ;
+        conll:HEAD     :s1_36 ;
+        conll:ID       "39" ;
+        conll:LEMMA    "dim[create]" ;
+        conll:UPOSTAG  "VERB" ;
+        conll:XPOSTAG  "V" .
+
+:s1_20  a              nif:Word ;
+        nif:nextWord   :s1_21 ;
+        conll:DEPREL   "conj" ;
+        conll:FEATS    "Number=Sing" ;
+        conll:FORM     "masz2" ;
+        conll:HEAD     :s1_9 ;
+        conll:ID       "20" ;
+        conll:LEMMA    "masz[goat]" ;
+        conll:UPOSTAG  "NOUN" ;
+        conll:XPOSTAG  "N" .
+
+:s1_33  a              nif:Word ;
+        nif:nextWord   :s1_34 ;
+        conll:DEPREL   "nmod" ;
+        conll:FEATS    "Animacy=Hum|Case=Gen|Number=Sing" ;
+        conll:FORM     "ka5-a-mu" ;
+        conll:HEAD     :s1_32 ;
+        conll:ID       "33" ;
+        conll:LEMMA    "Kayamu[1]" ;
+        conll:UPOSTAG  "PROPN" ;
+        conll:XPOSTAG  "PN" .
+
+:s1_8   a              nif:Word ;
+        nif:nextWord   :s1_9 ;
+        conll:DEPREL   "flat" ;
+        conll:FORM     "1(u)" ;
+        conll:HEAD     :s1_7 ;
+        conll:ID       "8" ;
+        conll:LEMMA    "1(u)[ten]" ;
+        conll:UPOSTAG  "NUM" ;
+        conll:XPOSTAG  "NU" .
+
+:s1_18  a              nif:Word ;
+        nif:nextWord   :s1_19 ;
+        conll:DEPREL   "nummod" ;
+        conll:FORM     "4(gesz2)" ;
+        conll:HEAD     :s1_20 ;
+        conll:ID       "18" ;
+        conll:LEMMA    "4(gesz)[sixty]" ;
+        conll:UPOSTAG  "NUM" ;
+        conll:XPOSTAG  "NU" .
+
+:s1_2   a              nif:Word ;
+        nif:nextWord   :s1_3 ;
+        conll:DEPREL   "flat" ;
+        conll:FORM     "n" ;
+        conll:HEAD     :s1_1 ;
+        conll:ID       "2" ;
+        conll:UPOSTAG  "NUM" ;
+        conll:XPOSTAG  "NU" .
+
+:s1_12  a              nif:Word ;
+        nif:nextWord   :s1_13 ;
+        conll:DEPREL   "nsubj:passive" ;
+        conll:FORM     "1(disz)" ;
+        conll:HEAD     :s1_11 ;
+        conll:ID       "12" ;
+        conll:LEMMA    "1(disz)[one]" ;
+        conll:UPOSTAG  "NUM" ;
+        conll:XPOSTAG  "NU" .
+
+:s1_25  a              nif:Word ;
+        nif:nextWord   :s1_26 ;
+        conll:DEPREL   "acl" ;
+        conll:FORM     "zi-ga" ;
+        conll:HEAD     :s1_9 ;
+        conll:ID       "25" ;
+        conll:LEMMA    "zig[expend]" ;
+        conll:UPOSTAG  "VERB" ;
+        conll:XPOSTAG  "V" .
+
+:s1_38  a              nif:Word ;
+        nif:nextWord   :s1_39 ;
+        conll:DEPREL   "nmod" ;
+        conll:FEATS    "Animacy=Hum|Case=Gen,Abs|Number=Sing" ;
+        conll:FORM     "{d}en-lil2-la2" ;
+        conll:HEAD     :s1_37 ;
+        conll:ID       "38" ;
+        conll:LEMMA    "Enlil[1]" ;
+        conll:UPOSTAG  "PROPN" ;
+        conll:XPOSTAG  "DN" .
+
+:s1_32  a              nif:Word ;
+        nif:nextWord   :s1_33 ;
+        conll:DEPREL   "obl" ;
+        conll:FEATS    "Number=Sing" ;
+        conll:FORM     "giri3" ;
+        conll:HEAD     :s1_31 ;
+        conll:ID       "32" ;
+        conll:LEMMA    "giri[foot]" ;
+        conll:UPOSTAG  "NOUN" ;
+        conll:XPOSTAG  "N" .
+
+:s1_7   a              nif:Word ;
+        nif:nextWord   :s1_8 ;
+        conll:DEPREL   "nummod" ;
+        conll:FORM     "1(gesz2)" ;
+        conll:HEAD     :s1_9 ;
+        conll:ID       "7" ;
+        conll:LEMMA    "1(gesz)[sixty]" ;
+        conll:UPOSTAG  "NUM" ;
+        conll:XPOSTAG  "NU" .
+
+:s1_17  a              nif:Word ;
+        nif:nextWord   :s1_18 ;
+        conll:DEPREL   "conj" ;
+        conll:FEATS    "Number=Sing" ;
+        conll:FORM     "udu" ;
+        conll:HEAD     :s1_9 ;
+        conll:ID       "17" ;
+        conll:LEMMA    "udu[sheep]" ;
+        conll:UPOSTAG  "NOUN" ;
+        conll:XPOSTAG  "N" .
+
+:s1_1   a              nif:Word ;
+        nif:nextWord   :s1_2 ;
+        conll:DEPREL   "nummod" ;
+        conll:FORM     "[n]" ;
+        conll:HEAD     :s1_4 ;
+        conll:ID       "1" ;
+        conll:UPOSTAG  "NUM" ;
+        conll:XPOSTAG  "NU" .
+
+:s1_11  a              nif:Word ;
+        nif:nextWord   :s1_12 ;
+        conll:DEPREL   "acl" ;
+        conll:FORM     "la2" ;
+        conll:HEAD     :s1_10 ;
+        conll:ID       "11" ;
+        conll:LEMMA    "la[hang]" ;
+        conll:UPOSTAG  "VERB" ;
+        conll:XPOSTAG  "V" .
+
+:s1_24  a              nif:Word ;
+        nif:nextWord   :s1_25 ;
+        conll:DEPREL   "obl" ;
+        conll:FEATS    "Number=Sing" ;
+        conll:FORM     "bala-a" ;
+        conll:HEAD     :s1_25 ;
+        conll:ID       "24" ;
+        conll:LEMMA    "bala[tax]" ;
+        conll:UPOSTAG  "NOUN" ;
+        conll:XPOSTAG  "N" .
+
+:s1_37  a              nif:Word ;
+        nif:nextWord   :s1_38 ;
+        conll:DEPREL   "nsubj:passive" ;
+        conll:FEATS    "Number=Sing" ;
+        conll:FORM     "{d}gu-za" ;
+        conll:HEAD     :s1_39 ;
+        conll:ID       "37" ;
+        conll:LEMMA    "guza[chair]" ;
+        conll:UPOSTAG  "NOUN" ;
+        conll:XPOSTAG  "N" .
